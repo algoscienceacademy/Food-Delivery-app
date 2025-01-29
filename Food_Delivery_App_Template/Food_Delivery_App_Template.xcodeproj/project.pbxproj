@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3423B7C12BCE8C7D00210FB2 /* HCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3423B7C02BCE8C7D00210FB2 /* HCardView.swift */; };
+		3423B7C32BCE92C600210FB2 /* ManuTopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3423B7C22BCE92C600210FB2 /* ManuTopBar.swift */; };
+		34292FD42BCEB56700971001 /* VCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34292FD32BCEB56700971001 /* VCardView.swift */; };
+		3447E3F82BC54BD0004F2887 /* AxisTabView in Frameworks */ = {isa = PBXBuildFile; productRef = 3447E3F72BC54BD0004F2887 /* AxisTabView */; };
+		345A5DBE2BC50C0E00A7C5D0 /* Verification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345A5DBD2BC50C0E00A7C5D0 /* Verification.swift */; };
+		347CDE0F2BCFEE2200D6AD88 /* Tab1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347CDE0E2BCFEE2200D6AD88 /* Tab1.swift */; };
+		347CDE112BCFEE4600D6AD88 /* View_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347CDE102BCFEE4600D6AD88 /* View_Extensions.swift */; };
+		34BE72422BCC14D4000D557C /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BE72412BCC14D4000D557C /* Tab.swift */; };
+		34BE72442BCC164C000D557C /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BE72432BCC164C000D557C /* Profile.swift */; };
+		34BE72472BCC171A000D557C /* Manu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BE72462BCC171A000D557C /* Manu.swift */; };
+		34E841F82BC3EADA00D6806B /* Food_Delivery_App_TemplateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E841F72BC3EADA00D6806B /* Food_Delivery_App_TemplateApp.swift */; };
+		34E841FC2BC3EADC00D6806B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34E841FB2BC3EADC00D6806B /* Assets.xcassets */; };
+		34E841FF2BC3EADC00D6806B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34E841FE2BC3EADC00D6806B /* Preview Assets.xcassets */; };
+		34E8420B2BC3EC0500D6806B /* Home V.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E8420A2BC3EC0500D6806B /* Home V.1.swift */; };
+		34E8420D2BC3EC1B00D6806B /* Home V.2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E8420C2BC3EC1B00D6806B /* Home V.2.swift */; };
+		34E8420F2BC3EC2D00D6806B /* Home V.3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E8420E2BC3EC2D00D6806B /* Home V.3.swift */; };
+		34E842112BC3EC5400D6806B /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E842102BC3EC5400D6806B /* Notification.swift */; };
+		34E842142BC3EC7600D6806B /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E842132BC3EC7600D6806B /* Message.swift */; };
+		34E842172BC3ECF900D6806B /* Sign_UP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E842162BC3ECF900D6806B /* Sign_UP.swift */; };
+		34E842192BC3ED0B00D6806B /* Log_IN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E842182BC3ED0B00D6806B /* Log_IN.swift */; };
+		34E8421B2BC3ED2600D6806B /* Forget_Password.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E8421A2BC3ED2600D6806B /* Forget_Password.swift */; };
+		34E8421E2BC3ED9800D6806B /* Onbording_Screen_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E8421D2BC3ED9800D6806B /* Onbording_Screen_1.swift */; };
+		34E842202BC3EDAC00D6806B /* Onbording_Screen_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E8421F2BC3EDAC00D6806B /* Onbording_Screen_2.swift */; };
+		34E842222BC3EDC200D6806B /* Onbording_Screen_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E842212BC3EDC200D6806B /* Onbording_Screen_3.swift */; };
+		34E842292BC3EE3500D6806B /* My_Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E842282BC3EE3500D6806B /* My_Card.swift */; };
+		34E8422E2BC3EEBC00D6806B /* Main_Tab_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E8422D2BC3EEBC00D6806B /* Main_Tab_View.swift */; };
+		34E842312BC3EF0A00D6806B /* Food_Burgers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E842302BC3EF0A00D6806B /* Food_Burgers.swift */; };
+		34E842332BC3EF2100D6806B /* Food Details_01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E842322BC3EF2100D6806B /* Food Details_01.swift */; };
+		34E842352BC3EF3900D6806B /* Food_details_03.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E842342BC3EF3900D6806B /* Food_details_03.swift */; };
+		34E842382BC3EFA000D6806B /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E842372BC3EFA000D6806B /* Search.swift */; };
+		34E8423B2BC3F00200D6806B /* Restaurant_View_01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E8423A2BC3F00200D6806B /* Restaurant_View_01.swift */; };
+		34E842402BC3F03700D6806B /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E8423F2BC3F03700D6806B /* Filter.swift */; };
+		34E842422BC3F06200D6806B /* Payment_Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E842412BC3F06200D6806B /* Payment_Method.swift */; };
+		34E842462BC3F0BD00D6806B /* Payment_Method_no_card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E842452BC3F0BD00D6806B /* Payment_Method_no_card.swift */; };
+		34E842492BC3F0EC00D6806B /* Edit_Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E842482BC3F0EC00D6806B /* Edit_Profile.swift */; };
+		34E8424B2BC3F10800D6806B /* Personal_Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E8424A2BC3F10800D6806B /* Personal_Info.swift */; };
+		34E8424E2BC3F14400D6806B /* My_Order_01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E8424D2BC3F14400D6806B /* My_Order_01.swift */; };
+		34E842572BC3F1D600D6806B /* Delivery_Man_Call_screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E842562BC3F1D600D6806B /* Delivery_Man_Call_screen.swift */; };
+		34E8425C2BC3F23800D6806B /* Add_New_Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E8425B2BC3F23800D6806B /* Add_New_Items.swift */; };
+		34E8425E2BC3F25800D6806B /* Chef_Food_Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E8425D2BC3F25800D6806B /* Chef_Food_Details.swift */; };
+		34E842602BC3F27800D6806B /* Payment_withdraw_Successful.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E8425F2BC3F27800D6806B /* Payment_withdraw_Successful.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3423B7C02BCE8C7D00210FB2 /* HCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCardView.swift; sourceTree = "<group>"; };
+		3423B7C22BCE92C600210FB2 /* ManuTopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManuTopBar.swift; sourceTree = "<group>"; };
+		34292FD32BCEB56700971001 /* VCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCardView.swift; sourceTree = "<group>"; };
+		345A5DBD2BC50C0E00A7C5D0 /* Verification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verification.swift; sourceTree = "<group>"; };
+		347CDE0E2BCFEE2200D6AD88 /* Tab1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab1.swift; sourceTree = "<group>"; };
+		347CDE102BCFEE4600D6AD88 /* View_Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_Extensions.swift; sourceTree = "<group>"; };
+		34BE72412BCC14D4000D557C /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		34BE72432BCC164C000D557C /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		34BE72462BCC171A000D557C /* Manu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manu.swift; sourceTree = "<group>"; };
+		34E841F42BC3EADA00D6806B /* Food_Delivery_App_Template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Food_Delivery_App_Template.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34E841F72BC3EADA00D6806B /* Food_Delivery_App_TemplateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food_Delivery_App_TemplateApp.swift; sourceTree = "<group>"; };
+		34E841FB2BC3EADC00D6806B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34E841FE2BC3EADC00D6806B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		34E8420A2BC3EC0500D6806B /* Home V.1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Home V.1.swift"; sourceTree = "<group>"; };
+		34E8420C2BC3EC1B00D6806B /* Home V.2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Home V.2.swift"; sourceTree = "<group>"; };
+		34E8420E2BC3EC2D00D6806B /* Home V.3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Home V.3.swift"; sourceTree = "<group>"; };
+		34E842102BC3EC5400D6806B /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		34E842132BC3EC7600D6806B /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		34E842162BC3ECF900D6806B /* Sign_UP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sign_UP.swift; sourceTree = "<group>"; };
+		34E842182BC3ED0B00D6806B /* Log_IN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log_IN.swift; sourceTree = "<group>"; };
+		34E8421A2BC3ED2600D6806B /* Forget_Password.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forget_Password.swift; sourceTree = "<group>"; };
+		34E8421D2BC3ED9800D6806B /* Onbording_Screen_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onbording_Screen_1.swift; sourceTree = "<group>"; };
+		34E8421F2BC3EDAC00D6806B /* Onbording_Screen_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onbording_Screen_2.swift; sourceTree = "<group>"; };
+		34E842212BC3EDC200D6806B /* Onbording_Screen_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onbording_Screen_3.swift; sourceTree = "<group>"; };
+		34E842282BC3EE3500D6806B /* My_Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Card.swift; sourceTree = "<group>"; };
+		34E8422D2BC3EEBC00D6806B /* Main_Tab_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main_Tab_View.swift; sourceTree = "<group>"; };
+		34E842302BC3EF0A00D6806B /* Food_Burgers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food_Burgers.swift; sourceTree = "<group>"; };
+		34E842322BC3EF2100D6806B /* Food Details_01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Food Details_01.swift"; sourceTree = "<group>"; };
+		34E842342BC3EF3900D6806B /* Food_details_03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food_details_03.swift; sourceTree = "<group>"; };
+		34E842372BC3EFA000D6806B /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		34E8423A2BC3F00200D6806B /* Restaurant_View_01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant_View_01.swift; sourceTree = "<group>"; };
+		34E8423F2BC3F03700D6806B /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		34E842412BC3F06200D6806B /* Payment_Method.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payment_Method.swift; sourceTree = "<group>"; };
+		34E842452BC3F0BD00D6806B /* Payment_Method_no_card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payment_Method_no_card.swift; sourceTree = "<group>"; };
+		34E842482BC3F0EC00D6806B /* Edit_Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edit_Profile.swift; sourceTree = "<group>"; };
+		34E8424A2BC3F10800D6806B /* Personal_Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personal_Info.swift; sourceTree = "<group>"; };
+		34E8424D2BC3F14400D6806B /* My_Order_01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Order_01.swift; sourceTree = "<group>"; };
+		34E842562BC3F1D600D6806B /* Delivery_Man_Call_screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delivery_Man_Call_screen.swift; sourceTree = "<group>"; };
+		34E8425B2BC3F23800D6806B /* Add_New_Items.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Add_New_Items.swift; sourceTree = "<group>"; };
+		34E8425D2BC3F25800D6806B /* Chef_Food_Details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chef_Food_Details.swift; sourceTree = "<group>"; };
+		34E8425F2BC3F27800D6806B /* Payment_withdraw_Successful.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payment_withdraw_Successful.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34E841F12BC3EADA00D6806B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3447E3F82BC54BD0004F2887 /* AxisTabView in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3423B7BF2BCE8C5900210FB2 /* ModelView */ = {
+			isa = PBXGroup;
+			children = (
+				3423B7C02BCE8C7D00210FB2 /* HCardView.swift */,
+				3423B7C22BCE92C600210FB2 /* ManuTopBar.swift */,
+				34292FD32BCEB56700971001 /* VCardView.swift */,
+			);
+			path = ModelView;
+			sourceTree = "<group>";
+		};
+		347CDE0D2BCFEDFF00D6AD88 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				347CDE0E2BCFEE2200D6AD88 /* Tab1.swift */,
+				347CDE102BCFEE4600D6AD88 /* View_Extensions.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		34BE72452BCC16F8000D557C /* Manu */ = {
+			isa = PBXGroup;
+			children = (
+				34BE72462BCC171A000D557C /* Manu.swift */,
+			);
+			path = Manu;
+			sourceTree = "<group>";
+		};
+		34E841EB2BC3EADA00D6806B = {
+			isa = PBXGroup;
+			children = (
+				34E841F62BC3EADA00D6806B /* Food_Delivery_App_Template */,
+				34E841F52BC3EADA00D6806B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34E841F52BC3EADA00D6806B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34E841F42BC3EADA00D6806B /* Food_Delivery_App_Template.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34E841F62BC3EADA00D6806B /* Food_Delivery_App_Template */ = {
+			isa = PBXGroup;
+			children = (
+				34E842552BC3F1AD00D6806B /* Call */,
+				34E842472BC3F0D200D6806B /* Profile */,
+				34E8422C2BC3EE9B00D6806B /* TabView */,
+				34E8421C2BC3ED5800D6806B /* Onbording */,
+				34E842152BC3ECA000D6806B /* Authrentication */,
+				34E842082BC3EBCF00D6806B /* HomeView */,
+				34E842052BC3EB3800D6806B /* Component */,
+				34E841F72BC3EADA00D6806B /* Food_Delivery_App_TemplateApp.swift */,
+				34E841FB2BC3EADC00D6806B /* Assets.xcassets */,
+				34E841FD2BC3EADC00D6806B /* Preview Content */,
+			);
+			path = Food_Delivery_App_Template;
+			sourceTree = "<group>";
+		};
+		34E841FD2BC3EADC00D6806B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				34E841FE2BC3EADC00D6806B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		34E842052BC3EB3800D6806B /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				3423B7BF2BCE8C5900210FB2 /* ModelView */,
+				34BE72452BCC16F8000D557C /* Manu */,
+				34E8425A2BC3F21A00D6806B /* Items */,
+				34E8424C2BC3F12E00D6806B /* Order */,
+				34E8423E2BC3F02900D6806B /* Filter */,
+				34E842392BC3EFC300D6806B /* Restaurent */,
+				34E842362BC3EF8300D6806B /* Search */,
+				34E8422F2BC3EEED00D6806B /* Food */,
+				34E842252BC3EE0400D6806B /* Card */,
+				34E842122BC3EC5A00D6806B /* Message */,
+				34E842062BC3EB9800D6806B /* Notification */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		34E842062BC3EB9800D6806B /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				34E842102BC3EC5400D6806B /* Notification.swift */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		34E842082BC3EBCF00D6806B /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				34E8420A2BC3EC0500D6806B /* Home V.1.swift */,
+				34E8420C2BC3EC1B00D6806B /* Home V.2.swift */,
+				34E8420E2BC3EC2D00D6806B /* Home V.3.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		34E842122BC3EC5A00D6806B /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				34E842132BC3EC7600D6806B /* Message.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		34E842152BC3ECA000D6806B /* Authrentication */ = {
+			isa = PBXGroup;
+			children = (
+				34E842162BC3ECF900D6806B /* Sign_UP.swift */,
+				34E842182BC3ED0B00D6806B /* Log_IN.swift */,
+				34E8421A2BC3ED2600D6806B /* Forget_Password.swift */,
+				345A5DBD2BC50C0E00A7C5D0 /* Verification.swift */,
+			);
+			path = Authrentication;
+			sourceTree = "<group>";
+		};
+		34E8421C2BC3ED5800D6806B /* Onbording */ = {
+			isa = PBXGroup;
+			children = (
+				34E8421D2BC3ED9800D6806B /* Onbording_Screen_1.swift */,
+				34E8421F2BC3EDAC00D6806B /* Onbording_Screen_2.swift */,
+				34E842212BC3EDC200D6806B /* Onbording_Screen_3.swift */,
+			);
+			path = Onbording;
+			sourceTree = "<group>";
+		};
+		34E842252BC3EE0400D6806B /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				34E842282BC3EE3500D6806B /* My_Card.swift */,
+				34E842412BC3F06200D6806B /* Payment_Method.swift */,
+				34E842452BC3F0BD00D6806B /* Payment_Method_no_card.swift */,
+				34E8425F2BC3F27800D6806B /* Payment_withdraw_Successful.swift */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
+		34E8422C2BC3EE9B00D6806B /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				34E8422D2BC3EEBC00D6806B /* Main_Tab_View.swift */,
+				34BE72412BCC14D4000D557C /* Tab.swift */,
+			);
+			path = TabView;
+			sourceTree = "<group>";
+		};
+		34E8422F2BC3EEED00D6806B /* Food */ = {
+			isa = PBXGroup;
+			children = (
+				34E842302BC3EF0A00D6806B /* Food_Burgers.swift */,
+				34E842322BC3EF2100D6806B /* Food Details_01.swift */,
+				34E842342BC3EF3900D6806B /* Food_details_03.swift */,
+				34E8425D2BC3F25800D6806B /* Chef_Food_Details.swift */,
+			);
+			path = Food;
+			sourceTree = "<group>";
+		};
+		34E842362BC3EF8300D6806B /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				34E842372BC3EFA000D6806B /* Search.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		34E842392BC3EFC300D6806B /* Restaurent */ = {
+			isa = PBXGroup;
+			children = (
+				34E8423A2BC3F00200D6806B /* Restaurant_View_01.swift */,
+			);
+			path = Restaurent;
+			sourceTree = "<group>";
+		};
+		34E8423E2BC3F02900D6806B /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				34E8423F2BC3F03700D6806B /* Filter.swift */,
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
+		34E842472BC3F0D200D6806B /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				34E842482BC3F0EC00D6806B /* Edit_Profile.swift */,
+				34E8424A2BC3F10800D6806B /* Personal_Info.swift */,
+				34BE72432BCC164C000D557C /* Profile.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		34E8424C2BC3F12E00D6806B /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				347CDE0D2BCFEDFF00D6AD88 /* Model */,
+				34E8424D2BC3F14400D6806B /* My_Order_01.swift */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
+		34E842552BC3F1AD00D6806B /* Call */ = {
+			isa = PBXGroup;
+			children = (
+				34E842562BC3F1D600D6806B /* Delivery_Man_Call_screen.swift */,
+			);
+			path = Call;
+			sourceTree = "<group>";
+		};
+		34E8425A2BC3F21A00D6806B /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				34E8425B2BC3F23800D6806B /* Add_New_Items.swift */,
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34E841F32BC3EADA00D6806B /* Food_Delivery_App_Template */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34E842022BC3EADC00D6806B /* Build configuration list for PBXNativeTarget "Food_Delivery_App_Template" */;
+			buildPhases = (
+				34E841F02BC3EADA00D6806B /* Sources */,
+				34E841F12BC3EADA00D6806B /* Frameworks */,
+				34E841F22BC3EADA00D6806B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Food_Delivery_App_Template;
+			packageProductDependencies = (
+				3447E3F72BC54BD0004F2887 /* AxisTabView */,
+			);
+			productName = Food_Delivery_App_Template;
+			productReference = 34E841F42BC3EADA00D6806B /* Food_Delivery_App_Template.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34E841EC2BC3EADA00D6806B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					34E841F32BC3EADA00D6806B = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 34E841EF2BC3EADA00D6806B /* Build configuration list for PBXProject "Food_Delivery_App_Template" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34E841EB2BC3EADA00D6806B;
+			packageReferences = (
+				3447E3F62BC54BD0004F2887 /* XCRemoteSwiftPackageReference "AxisTabView" */,
+			);
+			productRefGroup = 34E841F52BC3EADA00D6806B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34E841F32BC3EADA00D6806B /* Food_Delivery_App_Template */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34E841F22BC3EADA00D6806B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34E841FF2BC3EADC00D6806B /* Preview Assets.xcassets in Resources */,
+				34E841FC2BC3EADC00D6806B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34E841F02BC3EADA00D6806B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34E842462BC3F0BD00D6806B /* Payment_Method_no_card.swift in Sources */,
+				34E842312BC3EF0A00D6806B /* Food_Burgers.swift in Sources */,
+				34E842172BC3ECF900D6806B /* Sign_UP.swift in Sources */,
+				3423B7C12BCE8C7D00210FB2 /* HCardView.swift in Sources */,
+				345A5DBE2BC50C0E00A7C5D0 /* Verification.swift in Sources */,
+				34E841F82BC3EADA00D6806B /* Food_Delivery_App_TemplateApp.swift in Sources */,
+				34E842602BC3F27800D6806B /* Payment_withdraw_Successful.swift in Sources */,
+				34E842492BC3F0EC00D6806B /* Edit_Profile.swift in Sources */,
+				34BE72422BCC14D4000D557C /* Tab.swift in Sources */,
+				34292FD42BCEB56700971001 /* VCardView.swift in Sources */,
+				34E842112BC3EC5400D6806B /* Notification.swift in Sources */,
+				347CDE0F2BCFEE2200D6AD88 /* Tab1.swift in Sources */,
+				34E8420F2BC3EC2D00D6806B /* Home V.3.swift in Sources */,
+				34BE72472BCC171A000D557C /* Manu.swift in Sources */,
+				34E842142BC3EC7600D6806B /* Message.swift in Sources */,
+				34E8425E2BC3F25800D6806B /* Chef_Food_Details.swift in Sources */,
+				34BE72442BCC164C000D557C /* Profile.swift in Sources */,
+				34E842382BC3EFA000D6806B /* Search.swift in Sources */,
+				3423B7C32BCE92C600210FB2 /* ManuTopBar.swift in Sources */,
+				34E842202BC3EDAC00D6806B /* Onbording_Screen_2.swift in Sources */,
+				34E8420D2BC3EC1B00D6806B /* Home V.2.swift in Sources */,
+				34E8421B2BC3ED2600D6806B /* Forget_Password.swift in Sources */,
+				34E8424E2BC3F14400D6806B /* My_Order_01.swift in Sources */,
+				34E842422BC3F06200D6806B /* Payment_Method.swift in Sources */,
+				34E842402BC3F03700D6806B /* Filter.swift in Sources */,
+				34E842352BC3EF3900D6806B /* Food_details_03.swift in Sources */,
+				347CDE112BCFEE4600D6AD88 /* View_Extensions.swift in Sources */,
+				34E8420B2BC3EC0500D6806B /* Home V.1.swift in Sources */,
+				34E8423B2BC3F00200D6806B /* Restaurant_View_01.swift in Sources */,
+				34E8422E2BC3EEBC00D6806B /* Main_Tab_View.swift in Sources */,
+				34E8424B2BC3F10800D6806B /* Personal_Info.swift in Sources */,
+				34E842332BC3EF2100D6806B /* Food Details_01.swift in Sources */,
+				34E842292BC3EE3500D6806B /* My_Card.swift in Sources */,
+				34E8425C2BC3F23800D6806B /* Add_New_Items.swift in Sources */,
+				34E8421E2BC3ED9800D6806B /* Onbording_Screen_1.swift in Sources */,
+				34E842222BC3EDC200D6806B /* Onbording_Screen_3.swift in Sources */,
+				34E842572BC3F1D600D6806B /* Delivery_Man_Call_screen.swift in Sources */,
+				34E842192BC3ED0B00D6806B /* Log_IN.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		34E842002BC3EADC00D6806B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34E842012BC3EADC00D6806B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34E842032BC3EADC00D6806B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Food_Delivery_App_Template/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shawon.Food-Delivery-App-Template";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34E842042BC3EADC00D6806B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Food_Delivery_App_Template/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shawon.Food-Delivery-App-Template";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34E841EF2BC3EADA00D6806B /* Build configuration list for PBXProject "Food_Delivery_App_Template" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34E842002BC3EADC00D6806B /* Debug */,
+				34E842012BC3EADC00D6806B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34E842022BC3EADC00D6806B /* Build configuration list for PBXNativeTarget "Food_Delivery_App_Template" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34E842032BC3EADC00D6806B /* Debug */,
+				34E842042BC3EADC00D6806B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3447E3F62BC54BD0004F2887 /* XCRemoteSwiftPackageReference "AxisTabView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jasudev/AxisTabView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3447E3F72BC54BD0004F2887 /* AxisTabView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3447E3F62BC54BD0004F2887 /* XCRemoteSwiftPackageReference "AxisTabView" */;
+			productName = AxisTabView;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 34E841EC2BC3EADA00D6806B /* Project object */;
+}
