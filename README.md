@@ -35,11 +35,11 @@ A sleek and modern Food Delivery App built using SwiftUI. This app provides an i
 
 1. Clone this repository:
    ```sh
-   git clone https://github.com/your-username/FoodDeliveryApp.git
+   git clone https://github.com/algoscienceacdemy/Food-Delivery-app.git
    ```
 2. Open the project in Xcode:
    ```sh
-   cd FoodDeliveryApp
+   cd Food-Delivery-App
    open FoodDeliveryApp.xcodeproj
    ```
 3. Build and run the app on the iOS Simulator or a real device.
