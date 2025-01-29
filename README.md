@@ -1,4 +1,4 @@
-# 🍔 Food Delivery App
+#  Food Delivery App in SwiftUI
 
 A sleek and modern Food Delivery App built using SwiftUI. This app provides an intuitive user interface, a responsive layout with row and column images, and a smooth ordering experience.
 
@@ -9,7 +9,7 @@ A sleek and modern Food Delivery App built using SwiftUI. This app provides an i
 |![3](https://github.com/user-attachments/assets/ef6c83e1-c690-46a8-8acc-faa611e16e88)|
 |![4](https://github.com/user-attachments/assets/cc955634-e3d3-479a-b8a6-1ee7ea57f1e5)|
 
-## 📸 Screenshots
+##  Screenshots
 
 | Onbording Screen 1| Onbording Screen 2 | Onboarding Screen 3|
 |-------------------|---------------------|-------------------|
@@ -21,15 +21,17 @@ A sleek and modern Food Delivery App built using SwiftUI. This app provides an i
 |             |               |         |
 |![Simulator Screenshot](https://github.com/user-attachments/assets/4b102e7d-c842-442e-9226-70392e17d79a) |![Simulator Screenshot](https://github.com/user-attachments/assets/189e758f-0055-4f8a-bdd0-4be849fded87)|![Simulator Screenshot - iPhone 15 Pro - 2024-09-19 at 17 53 40](https://github.com/user-attachments/assets/66a44972-d02a-4f97-8115-a3e108d184e5)|
 
-## 🚀 Features
+## Features
 
-- 🍽 Browse food items with a visually appealing UI
-- 🛒 Add items to cart and place an order
-- 📷 Beautifully arranged row and column images for a seamless browsing experience
-- 🌙 Dark mode support
-- 💳 Secure checkout process
-
-## 🛠 Installation
+- Onbording
+- Authrentication
+- Call
+- Component
+- Profile
+- TabView
+- HomeView
+- Assets
+##  Installation
 
 1. Clone this repository:
    ```sh
@@ -42,7 +44,7 @@ A sleek and modern Food Delivery App built using SwiftUI. This app provides an i
    ```
 3. Build and run the app on the iOS Simulator or a real device.
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 FoodDeliveryApp/
@@ -54,15 +56,11 @@ FoodDeliveryApp/
 └── FoodDeliveryAppApp.swift  # Main app entry point
 ```
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Feel free to open issues and submit pull requests.
 
-## 📜 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----
-
-Enjoy coding! 🚀
+Enjoy coding! 
 
